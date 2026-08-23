@@ -1,0 +1,55 @@
+{
+  "name": "github",
+  "private": true,
+  "description": "GitHub Tool.",
+  "type": "module",
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "repos",
+      "title": "Repos",
+      "description": "List your repos.",
+      "mode": "view",
+      "icon": "repo.png"
+    },
+    {
+      "name": "stars",
+      "title": "Stars",
+      "description": "List repo you starred.",
+      "mode": "view",
+      "icon": "star.png"
+    },
+    {
+      "name": "followed",
+      "title": "Followed",
+      "description": "List users you are followed.",
+      "mode": "view",
+      "icon": "person.png"
+    },
+    {
+      "name": "sync",
+      "title": "Sync",
+      "description": "Sync GitHub data.",
+      "mode": "no-view",
+      "icon": "icon.png",
+      "interval": "6h"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "auth",
+      "title": "Personal access tokens",
+      "description": "github.com > Settings > Developer settings > Personal access tokens",
+      "type": "password",
+      "required": true
+    }
+  ],
+  "title": "GitHub"
+}
