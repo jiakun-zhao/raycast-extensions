@@ -17,21 +17,21 @@
       "title": "Repos",
       "description": "List your repos.",
       "mode": "view",
-      "icon": "repo.png"
+      "icon": "icon.png"
     },
     {
       "name": "stars",
       "title": "Stars",
       "description": "List repo you starred.",
       "mode": "view",
-      "icon": "star.png"
+      "icon": "icon.png"
     },
     {
       "name": "followed",
       "title": "Followed",
       "description": "List users you are followed.",
       "mode": "view",
-      "icon": "person.png"
+      "icon": "icon.png"
     },
     {
       "name": "sync",

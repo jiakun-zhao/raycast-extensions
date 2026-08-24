@@ -48,6 +48,12 @@ importers:
         specifier: ^7.0.2
         version: 7.0.2
 
+  extensions/usage:
+    devDependencies:
+      typescript:
+        specifier: ^7.0.2
+        version: 7.0.2
+
 packages:
 
   '@antfu/install-pkg@1.1.0':
