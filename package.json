@@ -10,14 +10,14 @@
   "devDependencies": {
     "@jiakun-zhao/config": "^0.0.12",
     "@octokit/rest": "^22.0.1",
-    "@raycast/api": "^1.104.23",
-    "@raycast/utils": "^2.3.0",
+    "@raycast/api": "^2.3.0",
+    "@raycast/utils": "^2.3.1",
     "@types/node": "^26.2.0",
-    "@types/react": "^19.2.18",
-    "oxfmt": "^0.64.0",
-    "oxlint": "^1.79.0",
+    "@types/react": "^19.3.0",
+    "oxfmt": "^0.67.0",
+    "oxlint": "^1.82.0",
     "oxlint-tsgolint": "^7.0.2001",
     "typescript": "^7.0.2",
-    "vitest": "^4.1.11"
+    "vitest": "^5.0.0"
   }
 }

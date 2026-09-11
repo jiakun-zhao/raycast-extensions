@@ -3,7 +3,9 @@ import type { Key } from './utils'
 import { set } from './utils'
 
 async function toast(options: Toast.Options) {
-  if (environment.launchType === LaunchType.Background) {return}
+  if (environment.launchType === LaunchType.Background) {
+    return
+  }
   await showToast(options)
 }
 

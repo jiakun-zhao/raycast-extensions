@@ -1,13 +1,22 @@
 {
   "name": "github",
   "private": true,
-  "description": "GitHub Tool.",
+  "description": "Tools for your GitHub account.",
+  "author": "jiakun-zhao",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "ray build -e dist",
     "dev": "ray develop"
   },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "@raycast/api": "^2.3.0",
+    "@raycast/utils": "^2.3.1"
+  },
   "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.3.0",
     "typescript": "^7.0.2"
   },
   "icon": "icon.png",
